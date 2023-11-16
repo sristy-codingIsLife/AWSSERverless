@@ -1,0 +1,94 @@
+    {
+
+    "resource": "/product/{id}",
+    "path": "/product/4",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Cache-Control": "no-cache",
+        "Host": "4wfgwinkj0.execute-api.ap-south-1.amazonaws.com",
+        "Postman-Token": "351210b7-f09f-4f91-9e0a-f89ba8e492e6",
+        "User-Agent": "PostmanRuntime/7.28.4",
+        "X-Amzn-Trace-Id": "Root=1-6526ca4a-16f82ce21c88a8eb4d89345f",
+        "X-Forwarded-For": "47.15.190.235",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "Accept-Encoding": [
+            "gzip, deflate, br"
+        ],
+        "Cache-Control": [
+            "no-cache"
+        ],
+        "Host": [
+            "4wfgwinkj0.execute-api.ap-south-1.amazonaws.com"
+        ],
+        "Postman-Token": [
+            "351210b7-f09f-4f91-9e0a-f89ba8e492e6"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.28.4"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-6526ca4a-16f82ce21c88a8eb4d89345f"
+        ],
+        "X-Forwarded-For": [
+            "47.15.190.235"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": {
+        "category": "phone"
+    },
+    "multiValueQueryStringParameters": {
+        "category": [
+            "phone"
+        ]
+    },
+    "pathParameters": {
+        "id": "4"
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "64cags",
+        "resourcePath": "/product/{id}",
+        "httpMethod": "GET",
+        "extendedRequestId": "MpSLpFPNhcwFezg=",
+        "requestTime": "11/Oct/2023:16:16:10 +0000",
+        "path": "/prod/product/4",
+        "accountId": "177509053591",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "4wfgwinkj0",
+        "requestTimeEpoch": 1697040970285,
+        "requestId": "a0a6f432-4aff-4439-86bf-6198e9ddf22b",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "47.15.190.235",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "PostmanRuntime/7.28.4",
+            "user": null
+        },
+        "domainName": "4wfgwinkj0.execute-api.ap-south-1.amazonaws.com",
+        "apiId": "4wfgwinkj0"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}

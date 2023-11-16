@@ -1,0 +1,29 @@
+aws lambda update-function-code `
+  --function-name my-function3 `
+  --zip-file fileb://function.zip
+
+  aws lambda invoke `
+  --function-name my-function3 `
+  --cli-binary-format raw-in-base64-out `
+  --payload file://events.json `
+  response.json  
+
+
+  AWS Lambda Environment VAriables 
+
+  Configuring environment varaibles with the API
+
+  aws lambda update-function-configuration --function-name `
+  my-function3 `
+   --environment `
+   "Variables={BUCKET=my-bucket, KEY=file.txt}"
+
+  Command to get env varibales 
+
+  aws lambda get-function-configuration --function-name
+  my-function 
+
+
+  command to delete function inAWs lambda 
+
+  aws lambda delete-function function-name my-function

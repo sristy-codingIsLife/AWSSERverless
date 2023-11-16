@@ -1,0 +1,11 @@
+Invoke Lambda Functions with event.json using AWS CLI 
+
+Invoke Command:
+ aws lambda invoke `
+ --function-name HelloWorld `
+ --cli-binary-format raw-in-base64-out `
+ --payload file://event.json `
+  response.json
+
+Example retrieve a logID
+

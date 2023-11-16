@@ -1,0 +1,24 @@
+exports.handler = function(event, context){
+
+    console.log('Remaining time: ', context.getRemainingTimeInMillis())
+    console.log('Function name: ', context.functionName)
+
+    const body = 
+       `Function name: ${context.functionName}
+       LogStream name: ${context.logStreamName}`
+
+       return body;
+}
+
+aws lambda create-function `
+    --function-name my-function3 `
+    --runtime nodejs14.x `
+    --zip-file fileb://function.zip `
+    --handler index.handler `
+    --role arn:aws:iam::177509053591:role/lambda-ex
+
+    aws lambda invoke `
+  --function-name my-function3 `
+  --cli-binary-format raw-in-base64-out `
+  --payload file://event.json `
+  response.json  
